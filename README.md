@@ -11,6 +11,15 @@ The goal is to test practical ways to:
 - quantify morphology and intensity-related features
 - compare simple segmentation approaches across different sample types
 
+## Scripts
+
 The [bacterial colony segmentation script](bacterial_colony_segmentation_count.py) isolates the agar region, segments colonies, and exports labeled masks and measurements.
 
+The [SAM segmentation script](sam_segmentation_saureus.py) finds candidate cell centres and uses SAMJ to generate cell masks and measurements.
+
+## Instructions
+- Open FIJI, go to Plugins > New > Script
+- Copy and paste the corresponding script
+- Update script with correct paths to input images and output folder
+- Click 'Run'
 
